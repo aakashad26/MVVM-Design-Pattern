@@ -42,6 +42,7 @@
 			children = (
 				07E530B9249BE21F00A471F2 /* MVVM Design Pattern */,
 				07E530B8249BE21F00A471F2 /* Products */,
+				07E530C3249BE22300A471F2 /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +57,46 @@
 		07E530B9249BE21F00A471F2 /* MVVM Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				07E530BA249BE21F00A471F2 /* AppDelegate.swift */,
-				07E530BC249BE21F00A471F2 /* SceneDelegate.swift */,
-				07E530BE249BE21F00A471F2 /* ViewController.swift */,
-				07E530C0249BE21F00A471F2 /* Main.storyboard */,
-				07E530C3249BE22300A471F2 /* Assets.xcassets */,
-				07E530C5249BE22300A471F2 /* LaunchScreen.storyboard */,
-				07E530C8249BE22300A471F2 /* Info.plist */,
+				07E530CE249BE26900A471F2 /* Model */,
+				07E530D0249BE27E00A471F2 /* Controller */,
+				07E530D1249BE28C00A471F2 /* Supporting Files */,
 			);
 			path = "MVVM Design Pattern";
+			sourceTree = "<group>";
+		};
+		07E530CE249BE26900A471F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07E530CF249BE27800A471F2 /* View */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07E530CF249BE27800A471F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07E530C5249BE22300A471F2 /* LaunchScreen.storyboard */,
+				07E530C0249BE21F00A471F2 /* Main.storyboard */,
+				07E530BC249BE21F00A471F2 /* SceneDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07E530D0249BE27E00A471F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07E530BE249BE21F00A471F2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07E530D1249BE28C00A471F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07E530BA249BE21F00A471F2 /* AppDelegate.swift */,
+				07E530C8249BE22300A471F2 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
